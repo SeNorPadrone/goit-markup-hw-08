@@ -1,0 +1,64 @@
+.mailing__form {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .mailing__input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+    width: 358px;   
+  
+  }
+  
+  .mailing__input label {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: $primary-font-size;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $hero-text-color;
+  }
+  
+  .mailing__input input {   
+    height: 50px;
+    padding: 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: none;
+    background-color: $hero-footer-bg-color;
+  }
+  
+  .mailing__input input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;      
+    letter-spacing: 0.03em;    
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .mailing__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px 30px;   
+    height: 50px;
+    width: 200px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: $hero-text-color;
+    background-color: $accent-color; 
+  }
+  .btn__icon {
+    height: 24px;
+    min-width: 24px;
+    margin-left: 10px;
+    fill: $hero-text-color;
+  }

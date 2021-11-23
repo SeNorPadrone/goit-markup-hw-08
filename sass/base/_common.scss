@@ -1,0 +1,27 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin-top: 80px;
+  color: #757575;
+  background-color: #ffffff;
+  font-size: 1.71;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

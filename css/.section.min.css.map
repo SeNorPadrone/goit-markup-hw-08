@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACL,OAAO,CAAE,MAAM,CAChB",
+    "sources": [
+        "../sass/utils/.section.scss"
+    ],
+    "names": [],
+    "file": ".section.min.css"
+}

@@ -1,0 +1,24 @@
+// *Utils
+@import "./utils/variables";
+@import "./utils/section";
+@import "./utils/title-hidden";
+@import "./utils/container";
+
+// *Base
+@import "./base/normalize";
+@import "./base/common";
+
+// *Components
+
+@import "./components/header";
+@import "./components/nav-bar";
+@import "./components/_contacts-container";
+@import "./components/main";
+@import "./components/description";
+@import "./components/section__team";
+@import "./components/section__title";
+@import "./components/_team__member";
+@import "./components/clients";
+@import "./components/footer";
+@import "./components/mailing__form";
+@import "./components/modal";

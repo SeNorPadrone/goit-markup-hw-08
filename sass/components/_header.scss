@@ -1,0 +1,16 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: $hero-text-color;
+
+  &__border-bottom {
+    border-bottom: 1px solid #ececec;
+  }
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
