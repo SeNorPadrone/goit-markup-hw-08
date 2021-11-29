@@ -1,0 +1,40 @@
+.social {
+  @extend %DFlex;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social--color {
+  color: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $hero-text-color;
+    cursor: pointer;
+  }
+}
+
+.social__icon--hover {
+  fill: currentColor;
+}
+
+.social--bg {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $hero-text-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+.social__icon--fill {
+  fill: currentColor;
+}

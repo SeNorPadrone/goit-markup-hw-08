@@ -1,0 +1,72 @@
+.sign {
+   @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin-top: 60px;
+   }
+
+   @media screen and(min-width: 1200px) {
+      display: flex;
+      align-items: flex-end;
+   }
+}
+
+.sign__box {
+   display: flex;
+   flex-direction: column;
+}
+
+.sign__label {
+   text-align: center;
+   margin-bottom: 20px;
+   @include font(700px, 14px, 1.14, 0.03em);
+   text-transform: uppercase;
+   color: $hero-text-color;
+
+   @media screen and(min-width: 1200px) {
+      text-align: start;
+   }
+}
+
+.sign__input {
+   margin-bottom: 20px;
+   height: 50px;
+   padding: 15px 16px;
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+   border-radius: 4px;
+   outline: none;
+   background-color: $hero-footer-bg-color;
+   color: $hero-text-color;
+
+   @media screen and (min-width: 768px) {
+      min-width: 450px;
+   }
+
+   @media screen and (min-width: 1200px) {
+      min-width: 358px;
+      margin-right: 12px;
+      margin-bottom: 0;
+   }
+
+   &::placeholder {
+      @include font(400, 16px, 1.25, 0.03em);
+      color: rgba(255, 255, 255, 0.6);
+   }
+}
+
+.sign__btn {
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   padding: 10px 30px;
+   height: 50px;
+   width: 200px;
+   cursor: pointer;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.sign__icon {
+   height: 24px;
+   min-width: 24px;
+   margin-left: 10px;
+   fill: $hero-text-color;
+}
